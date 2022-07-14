@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+  <color name="list_divider">#2f6699</color>
+  <color name="apacheta_blue">#145094</color>
+  <color name="apacheta_blue_accent">#1864ba</color>
+  <color name="apacheta_brown">#A0601F</color>
+  <color name="apacheta_orange_old">#FF9933</color>
+  <color name="selected_list_row">#7DCDE8</color>
+  <color name="red">#FF0000</color>
+  <color name="green">#00C410</color>
+  <color name="header_background">#007299</color>
+  <color name="header_background_accent">#0190c1</color>
+  <color name="header_text">#E5E5E5</color>
+  <color name="pager_background">#0099CC</color>
+  <color name="pager_text">#fff</color>
+  <color name="white">#ffffff</color>
+  <color name="black">#000000</color>
+  <color name="darkish_grey">#A9A9A9</color>
+  <color name="light_gray">#CFCFCF</color>
+</resources>

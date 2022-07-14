@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Copyright (C) 2003-2006 Apacheta Corporation. All rights reserved -->
+<Method StartTask="0" StartLayoutX="4" StartLayoutY="4" EndLayoutX="44" EndLayoutY="5" Created="1900-01-01T00:00:00" Updated="2022-07-14T15:08:19">
+  <Assemblies />
+  <Variables>
+    <Variable ID="0" Name="Counter" Type="int" Description="" Access="Public" />
+  </Variables>
+  <Tasks>
+    <Task ID="0" Name="CountVisit" Type="1" Resource="HelloWorld.Droid.dll" Method="HelloWorld.CountVisit" Description="" Comment="" LayoutX="17" LayoutY="4">
+      <TVariables>
+        <TVariable LocalMap="1" Name="Counter" Type="int" GlobalMap="0" Description="" Flow="3" Nullable="True" Req="False" Trace="0" />
+      </TVariables>
+      <Outcomes>
+        <Outcome TaskTo="1" Name="ok" />
+      </Outcomes>
+    </Task>
+    <Task ID="1" Name="ShowCounter" Type="0" Resource="HelloWorld.Droid.dll" Method="HelloWorld.ShowCounter" Description="" Comment="" LayoutX="29" LayoutY="4">
+      <TVariables>
+        <TVariable LocalMap="1" Name="Counter" Type="int" GlobalMap="0" Description="" Flow="3" Nullable="True" Req="False" Trace="0" />
+      </TVariables>
+      <Outcomes>
+        <Outcome TaskTo="-1" Name="ok" />
+      </Outcomes>
+    </Task>
+  </Tasks>
+</Method>

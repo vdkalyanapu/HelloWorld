@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Copyright (C) 2003-2006 Apacheta Corporation. All rights reserved -->
+<Method StartTask="0" StartLayoutX="4" StartLayoutY="4" EndLayoutX="64" EndLayoutY="4" Created="" Updated="2022-07-14T15:23:59">
+  <Assemblies />
+  <Variables>
+    <Variable ID="2" Name="Counter" Type="int" Description="" Access="Private" />
+  </Variables>
+  <Tasks>
+    <Task ID="0" Name="InitializeApp" Type="1" Resource="HelloWorld.Droid.dll" Method="HelloWorld.InitializeApp" Description="" Comment="" LayoutX="17" LayoutY="4">
+      <Outcomes>
+        <Outcome TaskTo="1" Name="ok" />
+      </Outcomes>
+    </Task>
+    <Task ID="1" Name="HelloWorldMainScreen" Type="0" Resource="HelloWorld.Droid.dll" Method="HelloWorld.HelloWorldMainScreen" Description="" Comment="" LayoutX="30" LayoutY="4">
+      <TVariables>
+        <TVariable LocalMap="1" Name="Counter" Type="int" GlobalMap="2" Description="" Flow="3" Nullable="True" Req="False" Trace="0" />
+      </TVariables>
+      <Outcomes>
+        <Outcome TaskTo="2" Name="ok" />
+        <Outcome TaskTo="3" Name="Error" />
+      </Outcomes>
+    </Task>
+    <Task ID="2" Name="Counter" Type="3" Resource="Counter.xml" Method="" Description="" Comment="" LayoutX="46" LayoutY="18">
+      <TVariables>
+        <TVariable LocalMap="0" Name="Counter" Type="int" GlobalMap="-1" Description="" Flow="3" Nullable="True" Req="False" Trace="0" />
+      </TVariables>
+      <Outcomes>
+        <Outcome TaskTo="1" Name="[default]" />
+      </Outcomes>
+    </Task>
+    <Task ID="3" Name="ShowError" Type="0" Resource="HelloWorld.Droid.dll" Method="HelloWorld.ShowError" Description="" Comment="" LayoutX="50" LayoutY="5">
+      <Outcomes>
+        <Outcome TaskTo="-1" Name="ok" />
+      </Outcomes>
+    </Task>
+  </Tasks>
+</Method>

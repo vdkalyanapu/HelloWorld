@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Settings>
+  <Setting key="AMP Version" value="Xamarin" />
+  <Setting key="Calculate Layout Style" value="TreeFromLeft" />
+  <Setting key="Database Copy Path" value="" />
+  <Setting key="Default Import Source Directory" value="" />
+  <Setting key="Default Load Apacheta Resource Directory" value="" />
+  <Setting key="Default New Solution Directory" value="" />
+  <Setting key="Default New Task Project" value="Project 1 (HelloWorld.Droid)" />
+  <Setting key="Default Open Solution Directory" value="C:\Users\vkalyanapu\Source\Repos\HelloWorld" />
+  <Setting key="Deploy Core With Prototype" value="True" />
+  <Setting key="DotNET Resource Copy" value="True" />
+  <Setting key="Editor Shell Command" value="" />
+  <Setting key="Global Variable Fixed Pane" value="True" />
+  <Setting key="Library Projects" value="" />
+  <Setting key="Loaded Apacheta Resources" value="" />
+  <Setting key="Magnifying Glass" value="Off" />
+  <Setting key="Method Copy Path" value="" />
+  <Setting key="Method XML Folder" value="C:\Users\vkalyanapu\Source\Repos\HelloWorld\Methods" />
+  <Setting key="New Form Client Size" value="" />
+  <Setting key="No. Projects" value="2" />
+  <Setting key="Open Methods List" value="method" />
+  <Setting key="Page Background Style" value="GraphPaper" />
+  <Setting key="Project 1 Code Folder" value="C:\Users\vkalyanapu\Source\Repos\HelloWorld\HelloWorld.Droid" />
+  <Setting key="Project 1 Default Namespace" value="HelloWorld.Droid" />
+  <Setting key="Project 1 Resource  Name" value="HelloWorld.Droid.dll" />
+  <Setting key="Project 2 Code Folder" value="C:\Users\vkalyanapu\Source\Repos\HelloWorld\HelloWorld.iOS" />
+  <Setting key="Project 2 Default Namespace" value="HelloWorld.iOS" />
+  <Setting key="Project 2 Resource  Name" value="HelloWorld.iOS.dll" />
+  <Setting key="Project 3 Code Folder" value="" />
+  <Setting key="Project 3 Default Namespace" value="" />
+  <Setting key="Project 3 Resource  Name" value="" />
+  <Setting key="Selected Method Index" value="0" />
+  <Setting key="Selection Color" value="Cyan" />
+  <Setting key="Show/Hide Analytics Properties" value="Show" />
+  <Setting key="Show/Hide Comments" value="Show" />
+  <Setting key="Show/Hide Internal Task Markers" value="Hide" />
+  <Setting key="Show/Hide Tab Name In Title" value="Hide" />
+  <Setting key="Show/Hide Thumbnails" value="Show" />
+  <Setting key="Show/Hide Variable Mappings" value="Show" />
+  <Setting key="Sync Task With Source Edit" value="True" />
+  <Setting key="Thumbnail Height" value="12" />
+  <Setting key="Thumbnail Width" value="9" />
+  <Setting key="Title" value="" />
+  <Setting key="Web Project Download State" value="" />
+</Settings>

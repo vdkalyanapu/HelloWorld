@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="condition_report_terms">\u2022 En acceptant la livraison de l\'équipement, vous acceptez les <a href="https://www.unitedrentals.com/MobileTCs">Termes du Contrat de Location et de Services</a> ainsi que confirmez la condition de l\'équipement tel qu\'énoncé dans le rapport sur la condition de l\'équipement.</string>
+  <string name="rental_terms">\u2022 J\'accepte les termes du contrat de location.</string>
+  <string name="cc_terms">\u2022 J\'autorise l\'entreprise à débiter ma carte de crédit au dossier.</string>
+  <string name="rpp_terms_accept">\u2022 Le plan de protection de la location (RPP) a été accepté et vous acceptez les <a href="https://www.unitedrentals.com/MobileRPP">Conditions du RPP.</a></string>
+  <string name="rpp_terms_decline">\u2022 Le plan de protection de la location (RPP) a été refusé.</string>
+  <string name="perp_terms">\u2022 J\'accepte la notification des exigences du PERP.</string>
+</resources>
